@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+
+.mainContainer{
+    width: 70%;
+    height: 450px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.mainContainer img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    transition: all ease-in-out .5s;
+
+}
+.mainContainer img:hover{
+    width: 20%;
+}
